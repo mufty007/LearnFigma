@@ -44,7 +44,7 @@ header{
   background:#ffffff;
   top:0;
   left:0;
-  transform: translateX(-50%);
+  transform: translate-x(-50%);
   position:fixed;
   display:flex;
   align-items:center;
@@ -339,7 +339,7 @@ footer{
     background:#ffffff;
     top:0;
     left:0;
-    transform: translateX(-50%);
+    transform: translate-x(-50%);
     position:fixed;
     display:flex;
     align-items:center;
