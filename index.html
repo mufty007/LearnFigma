@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width">
+    <title>LearnFigma</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+    <!-- Importing google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Header Section -->
+    <header>
+      <div class="wrapper">
+        <h4 class="logo">
+          LearnFigma
+        </h4>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="pages/Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a href="pages/Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a href="pages/Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="pages/About.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button onClick="showMenu()" >
+          <img id="menu" src="images/menu.svg"  alt="menu icon">
+        </button>
+
+          <nav id="mobile" class="mobile">
+          <ul>
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="pages/Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a href="pages/Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a href="pages/Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="pages/About.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Banner section -->
+    <section class="homeBanner">
+      <div class="wrapper">
+        <div class="left">
+          <h1>Improve your<br>design skills by learning<br>a new Figma trick.</h1>
+        </div>
+        <div class="right">
+          <img src="images/figmaBox.svg" alt="Figma design tool logo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Futured tips section -->
+
+    <main class="wrapper">
+      <section class="futured">
+        <h3>Some Tricks</h3>
+        <div class="cards">
+          <div class="card">
+            <img src="images/sett.png" alt="trick banner for settings icon" />
+            <div class="table">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Draw a Star with 8 Points and set Ratio/Radius to 34%.⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Add Outside Stroke and set Joins to Bevel.⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Go to “Edit Mode” and Select the inner radius points.</td>
+                  </tr>
+                  <tr>
+                    <td>Increase the Corner Radius to create the Cog Shape.⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Change Star’s Fill Color, so that it matches with the Stroke.⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Use the Oval Shape tool and draw a circle in the center.⁣</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/retro.png" alt="trick banner for retro icon" />
+            <div class="table">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>⁣⁣⁣⁣⁣⁣Use Oval, Rectangle, or Pen tool to draw a Shape.⁣⁣⁣⁣⁣⁣⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Add Inner Shadow as per required border-side⁣⁣⁣⁣⁣⁣.⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Top - X: 0 | Y: 3 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Bottom - X: 0 | Y: -3 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Left - X: 3 | Y: 0 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣⁣</td>
+                  </tr>
+                  <tr>
+                    <td>Right - X: -3 | Y: 0 | Blur: 0 |Spread: 0 ⁣⁣⁣⁣⁣</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+
+    <footer>
+      <h2>Copyright &copy; 2020</h2>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
