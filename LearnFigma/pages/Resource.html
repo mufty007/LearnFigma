@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width">
+    <title>LearnFigma</title>
+    <link href="../main.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+
+    <!-- Header Section -->
+   
+  <header>
+      <div class="header">
+        <h4 class="logo">
+          Learn<i>Figma</i>
+        </h4>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="../index.html" >Home</a>
+            </li>
+            <li>
+              <a href="Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a href="Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a class="active" href="Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="About.html">About</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile">
+          <button onclick="showMenu()">&#9778;</button>
+          <ul id="menu_mobile">
+            <li>
+              <a  href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a href="Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a class="active" href="Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="About.html">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+    <!-- Banner section -->
+    <section class="homeBanner">
+      <div class="wrapper">
+        <div class="left">
+          <h1>Resources to help <br>you better your <br><i>designs</i></h1>
+        </div>
+        <div class="right">
+          <img src="../images/resorce.svg" alt="Resources to help you improve your designs." />
+        </div>
+      </div>
+    </section>
+
+    <!-- Futured tips section -->
+
+    <main>
+      <div class="wrapper"><h4 class="subheader">Design <i>Courses</i></h4></div>
+
+      <div class="wrapper">
+        
+        <div class="grid2">
+          <div class="resource">
+            <h4>Figma in Five</h4>
+            <p>Ready to level up your skills? Got five minutes? Join us for this brand new series, meant to level you up in a rapid-fire, tip stacked deep-dive on a topic.</p>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+          <div class="resource">
+            <h4>Figma Crash Course</h4>
+            <p>Deep dives into powerful Figma features. Skip the basics and learn prototyping, auto-layout, systems, and illustration with your instructor, Pablo Stanley</p>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+          <div class="resource">
+            <h4>Let's XD - Learn Adobe XD with Howard Pinsky</h4>
+            <p>Master the UI/UX tools to get you designing and prototyping. Watch tutorials, quick tips, and more</p>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+          <div class="resource">
+            <h4>Sketch vs Figma, Adobe XD, And Other UI Design Applications</h4>
+            <p>I’ll try to summarize my thoughts on how Figma, Adobe XD compete with Sketch and what are their unique features</p>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper"><h4 class="subheader">Figma <i>Plugins</i></h4></div>
+
+      <div class="wrapper">
+        <table>
+          <tr>
+            <th>Plugin name</th>
+            <th>A little about the pluing</th>
+            <th>Link to plugin</th>
+          </tr>
+          <tr>
+            <td>Remove BG</td>
+            <td>Automatically removes the background of an image with a single click.</td>
+            <td class="button"><a href="https://www.remove.bg/" target="blank">View plugin</a></td>
+          </tr>
+          <tr>
+            <td>Isometric</td>
+            <td>Create Isometric layers without manually having to set them up.</td>
+            <td class="button"><a href="https://www.figma.com/community/plugin/741184519069077841/Isometric" target="blank">View plugin</a></td>
+          </tr>
+          <tr>
+            <td>Content Reel</td>
+            <td>Easily pull text, avaters and icons into your designs.</td>
+            <td class="button"><a href="https://www.figma.com/community/plugin/731627216655469013/Content-Reel" target="blank">View plugin</a></td>
+          </tr>
+          <tr>
+            <td>Iconify</td>
+            <td>Get icons from Material Design Icons, Font Awesome, Jam Icons and many more.</td>
+            <td class="button"><a href="https://www.figma.com/community/plugin/735098390272716381/Iconify" target="blank">View plugin</a></td>
+          </tr>
+          <tr>
+            <td>Blobs</td>
+            <td>Create blob shapes with a single click.</td>
+            <td class="button"><a href="https://www.figma.com/community/plugin/739208439270091369/Blobs" target="blank">View plugin</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="wrapper share">
+        <h1>Know of any <br>good design <br>resource to<br><i>share</i> ?</h1>
+        <form class="form" action="#">
+          <input type="text" id="fname" name="fname" placeholder="Name"><br>
+          <input type="url" id="flink" name="ResourceLink" placeholder="Resource link"><br>
+          <textarea id="message" name="message" cols="2" placeholder="Add a message ..."></textarea><br>
+          <input type="submit" value="Share Resource">
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="wrapper">
+      <p>Copyright <i>&copy;</i> 2021</p>
+      <p>made with &#10084; by <i><a href="#">@gaddafi180</a></i></p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

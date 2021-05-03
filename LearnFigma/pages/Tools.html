@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width">
+    <title>LearnFigma</title>
+    <link href="../main.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+
+    <!-- Header Section -->
+   
+  <header>
+      <div class="header">
+        <h4 class="logo">
+          Learn<i>Figma</i>
+        </h4>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="../index.html" >Home</a>
+            </li>
+            <li>
+              <a href="Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a class="active" href="Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a href="Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="About.html">About</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile">
+          <button onclick="showMenu()">&#9778;</button>
+          <ul id="menu_mobile">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="Tips.html">Tips & Tricks</a>
+            </li>
+            <li>
+              <a class="active" href="Tools.html">UI/UX Tools</a>
+            </li>
+            <li>
+              <a href="Resource.html">Resources</a>
+            </li>
+            <li>
+              <a href="About.html">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+    <!-- Banner section -->
+    <section class="homeBanner">
+      <div class="wrapper">
+        <div class="left">
+          <h1>One Trick at<br>a time to <br>master <i>figma</i></h1>
+        </div>
+        <div class="right">
+          <img src="../images/tools.svg" alt="Learn one trick at a time" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Futured tips section -->
+
+    <main>
+      <div class="wrapper">
+        <div class="grid2">
+          <div class="tool">
+            <div class="img-button">
+              <div class="img-box">
+                <img src="../images/logos_figma.svg" alt="Figma logo"/>
+              </div>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+            <div class="info">
+              <h4>Figma</h4>
+              <p>Figma is a browser-based UI and UX design application with excellent design, prototyping and code generation tools. It is currently (probably) the industry's leading interface design tool, with robust features that support teams working at every stage of the design process.</p>
+            </div>
+          </div>
+           <div class="tool">
+            <div class="img-button">
+              <div class="img-box">
+                <img src="../images/xd.svg" alt="Adobe xD logo"/>
+              </div>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+            <div class="info">
+              <h4>Adobe xD</h4>
+              <p>Adobe XD is a vector-based user experience web app and mobile app design tool developed and published by Adobe Inc.</p>
+            </div>
+          </div>
+           <div class="tool">
+            <div class="img-button">
+              <div class="img-box">
+                <img src="../images/invision.svg" alt="Invision logo"/>
+              </div>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+            <div class="info">
+              <h4>Invision</h4>
+              <p>InVision is a prototyping tool designed by designers and designers for designers. It allows you to quickly and easily create interactive mock-ups for your designs. You can share these mockups with your team or clients when you're ready.</p>
+            </div>
+          </div>
+          <div class="tool">
+            <div class="img-button">
+              <div class="img-box">
+                <img src="../images/photoshop.svg" alt="Adobe photoshop logo"/>
+              </div>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+            <div class="info">
+              <h4>Adobe Photoshop</h4>
+              <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for both Windows and MacOS. It was originally created by Thomas and John Knoll in 1988. Since then, software has become the industry standard not only for raster graphics editing, but for digital art as a whole.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="wrapper share">
+        <h1>Know of any <br>good design <br>resource to<br><i>share</i> ?</h1>
+        <form class="form" action="#">
+          <input type="text" id="fname" name="fname" placeholder="Name"><br>
+          <input type="url" id="flink" name="ResourceLink" placeholder="Resource link"><br>
+          <textarea id="message" name="message" cols="2" placeholder="Add a message ..."></textarea><br>
+          <input type="submit" value="Share Resource">
+        </form>
+      </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="wrapper">
+      <p>Copyright <i>&copy;</i> 2021</p>
+      <p>made with &#10084; by <i><a href="#">@gaddafi180</a></i></p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

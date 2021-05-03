@@ -1,0 +1,447 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding:0;
+  background-color:#ffffff;
+  color:#100E34;
+  font-size:16px;
+  box-sizing:border-box;
+}
+
+a{  
+  color:#100E34;
+  text-decoration: none;
+}
+
+.active{
+  color:#4F48EC;
+  border-bottom: 1.5px solid #4F48EC;
+}
+
+ .mobile{
+    display:flex;
+    position:absolute;
+    top:100px;
+    left:0;
+    background:#fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+    width:100%;
+  }
+
+
+
+.wrapper{
+  width:80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper header{
+  width:100%;
+  height:100px;
+  background:#fff;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.wrapper header .mobile{
+  display:none;
+}
+
+.wrapper header nav ul{
+  display: flex;
+}
+
+.wrapper header nav ul li {
+  list-style:none;
+  padding: 6px 20px;
+  font-weight:500;
+}
+
+
+.wrapper main{
+  width:100%;
+  background-image:url("images/bgPatt.svg");
+  background-size:contain;
+  background-repeat:repeat-y;
+}
+
+.wrapper main .top{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#fff;
+}
+
+.wrapper main .top .left{
+  height:60%;
+  background-image:url("images/pattan.svg");
+  background-size:contain;
+  background-repeat:repeat-y;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.wrapper main .top .left h1{
+  font-weight: 650;
+  font-size:60px;
+}
+
+.wrapper main .top .right img{
+  width:400px;
+  height:400px;
+}
+
+.wrapper main .futured{
+  margin:100px auto 200px;
+  width:100%;
+  text-align:center;
+}
+
+.wrapper main .futured h3{
+  font-size:40px;
+}
+
+.wrapper main .futured .card{
+  margin:40px 0;
+  width:80%;
+  height:400px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+  display:flex;
+  align-items:center;
+}
+
+.wrapper main .futured .card:nth-child(odd){
+  float:right;
+}
+
+.wrapper main .futured .card .table{
+  margin-left:60px;
+}
+
+.wrapper main .futured .card .table table td{
+  width:400px;
+  height:40px;
+  padding: 6px;
+}
+
+.wrapper main .futured .card .table table tr:nth-child(even){background-color: rgba(79, 72, 236, 0.1);}
+
+
+.wrapper footer{
+  margin:40px 0;
+  width:100%;
+  height:200px;
+  background-image:url("images/bgPatt.svg");
+  background-size:cover;
+  background-position:center;
+   display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Style for other pages */
+
+
+.wrapper main .tipsBanner{
+  margin:40px 0;
+  width:100%;
+  height:300px;
+  background-image:url("images/tipsBanner.svg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  font-size:40px;
+}
+
+
+.wrapper main .toolsBanner{
+  margin:40px 0;
+  width:100%;
+  height:300px;
+  background-image:url("images/toolsBanner.svg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  font-size:40px;
+}
+
+.wrapper main .tools{
+  width:80%;
+  margin:50px auto;
+}
+
+.wrapper main .tools .card{
+  width:100%;
+  height:400px;
+  margin: 40px auto;
+  padding:10px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper main .tools .card .info{
+  padding:30px;
+  width:60%;
+}
+
+.wrapper main .tools .card .info a{
+  margin-top:40px;
+  float:right;
+  color:#4F48EC;
+  font-weight:600;
+}
+
+.wrapper main .aboutBanner{
+  margin:40px 0;
+  width:100%;
+  height:300px;
+  background-image:url("images/aboutBanner.svg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  font-size:40px;
+}
+
+.wrapper main .about{
+  width:100%;
+}
+.wrapper main .about .infoCard{
+  width:80%;
+  height:600px;
+  background:#FFBF18;
+  color:#100E34;
+  margin: 100px auto 150px;
+  position:relative;
+  transition: 500ms ease-in;
+}
+
+.wrapper main .about .infoCard:hover{
+  width:80%;
+  height:600px;
+  background:#100E34;
+  color:#FFBF18;
+  margin: 100px auto 150px;
+  position:relative;
+}
+
+.wrapper main .about .infoCard .img{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-image:url("images/me.JPG");
+  background-size:cover;
+  background-position:center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+  left: 70px;
+  top: 100px;
+  transition: 500ms ease-in;
+}
+
+
+.wrapper main .about .infoCard .info{
+  position: absolute;
+  width: 400px;
+  left: 62%;
+  bottom: 20px;
+}
+
+.wrapper main .about .infoCard .info h2{
+  font-size:30px;
+}
+
+.wrapper main .about .card{
+  width:80%;
+  height:200px;
+  margin:60px auto;
+  padding:15px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+.resourceBanner{
+  margin:40px 0;
+  width:100%;
+  height:30vh;
+  background-image:url("images/resourceBanner.svg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#100E34;
+  font-size:40px;
+}
+
+
+.wrapper .vedio{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.wrapper .vedio iframe{
+  width:800px;
+  height:500px;
+}
+
+
+/* responsive styles */
+
+ /* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 760px) {
+
+  body{
+    background:#fff;
+  }
+  .wrapper{
+    width:100%;
+    margin: 0 auto;
+  }
+
+  .wrapper header{
+    width:90%;
+    height:100px;
+    margin:0 auto;
+    background:#fff;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+
+  .wrapper header .desktop{
+    display: none;
+  }
+
+ 
+  .wrapper header .mobile ul {
+    display:block;
+    list-style:none;
+    padding: 6px 20px;
+    font-weight:500;
+  }
+
+
+  .wrapper main{
+    width:100%;
+    background-image:url("images/bgPatt.svg");
+    background-size:contain;
+    background-repeat:repeat-y;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .wrapper main .top{
+    width:80%;
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+  }
+
+  .wrapper main .top .left{
+    height:100%;
+    background-image:url("images/pattan.svg");
+    background-size:contain;
+    background-repeat:repeat-y;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+  }
+
+  .wrapper main .top .left h1{
+    font-weight: 650;
+    font-size:40px;
+  }
+
+  .wrapper main .top .right img{
+    width:300px;
+    height:300px;
+  }
+
+  .wrapper main .futured{
+    margin:80px auto 150px;
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .wrapper main .futured h3{
+    font-size:40px;
+    margin-bottom:80px;
+  }
+
+  .wrapper main .futured .card{
+    margin:80px 0;
+    width:90%;
+    height:600px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+   .wrapper main .futured .card img{
+     width:100%;
+     margin-top:-120px;
+   }
+
+  .wrapper main .futured .card:nth-child(odd){
+    float:none;
+  }
+
+  .wrapper main .futured .card .table{
+    margin-left:0px;
+  }
+
+  .wrapper main .futured .card .table table td{
+    width:400px;
+    height:40px;
+    padding: 6px;
+  }
+
+  .wrapper main .futured .card .table table tr:nth-child(even){background-color: rgba(79, 72, 236, 0.1);}
+
+
+  .wrapper footer{
+    margin:0px;
+    width:100%;
+    height:200px;
+    background-image:url("images/bgPatt.svg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+}
