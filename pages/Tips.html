@@ -3,27 +3,26 @@
   <head>
     <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width">
-    <title>LearnFigma  | Tips& tricks</title>
+    <title>LearnFigma</title>
     <link href="../main.css" rel="stylesheet" type="text/css" />
 
-    <!-- Importing google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
   </head>
   <body>
 
-   <!-- Header Section -->
-    <header>
-      <div class="wrapper">
+    <!-- Header Section -->
+   
+  <header>
+      <div class="header">
         <h4 class="logo">
-          LearnFigma
+          Learn<i>Figma</i>
         </h4>
         <nav class="desktop">
           <ul>
             <li>
-              <a href="../index.html">Home</a>
+              <a href="../index.html" >Home</a>
             </li>
             <li>
-              <a href="Tips.html" class="active">Tips & Tricks</a>
+              <a class="active" href="Tips.html">Tips & Tricks</a>
             </li>
             <li>
               <a href="Tools.html">UI/UX Tools</a>
@@ -32,22 +31,18 @@
               <a href="Resource.html">Resources</a>
             </li>
             <li>
-              <a href="About.html">About Us</a>
+              <a href="About.html">About</a>
             </li>
           </ul>
         </nav>
-
-        <button onClick="showMenu()" >
-          <img id="menu" src="../images/menu.svg"  alt="menu icon">
-        </button>
-
-          <nav class="mobile">
-          <ul>
+        <nav class="mobile">
+          <button onclick="showMenu()">&#9778;</button>
+          <ul id="menu_mobile">
             <li>
-              <a href="../index.html">Home</a>
+              <a  href="../index.html">Home</a>
             </li>
             <li>
-              <a href="Tips.html" class="active">Tips & Tricks</a>
+              <a class="active" href="Tips.html">Tips & Tricks</a>
             </li>
             <li>
               <a href="Tools.html">UI/UX Tools</a>
@@ -56,112 +51,114 @@
               <a href="Resource.html">Resources</a>
             </li>
             <li>
-              <a href="About.html">About Us</a>
+              <a href="About.html">About</a>
             </li>
           </ul>
         </nav>
       </div>
-    </header>
+  </header>
 
-    <!-- Banner Section -->
-
-    <div class="tipsBanner">
-      <h1>Tips & Tricks</h1>
-    </div>
-
-    <!-- tips and tricks section -->
-
-    <main class="wrapper">
-      <div class="futured">
-        <h3>Some Tricks</h3>
-        <div class="card">
-          <img src="../images/sett.png" alt="trick banner for settings icon" />
-          <div class="table">
-            <table>
-              <tbody>
-                <tr>
-                  <td>Draw a Star with 8 Points and set Ratio/Radius to 34%.⁣</td>
-                </tr>
-                <tr>
-                  <td>Add Outside Stroke and set Joins to Bevel.⁣</td>
-                </tr>
-                <tr>
-                  <td>Go to “Edit Mode” and Select the inner radius points.</td>
-                </tr>
-                <tr>
-                  <td>Increase the Corner Radius to create the Cog Shape.⁣</td>
-                </tr>
-                <tr>
-                  <td>Change Star’s Fill Color, so that it matches with the Stroke.⁣</td>
-                </tr>
-                <tr>
-                  <td>Use the Oval Shape tool and draw a circle in the center.⁣</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+    <!-- Banner section -->
+    <section class="homeBanner">
+      <div class="wrapper">
+        <div class="left">
+          <h1>One Trick at<br>a time to <br>master <i>figma</i></h1>
         </div>
-        <div class="card">
-          <img src="../images/retro.png" alt="trick banner for retro icon" />
-          <div class="table">
-            <table>
-              <tbody>
-                <tr>
-                  <td>⁣⁣⁣⁣⁣⁣Use Oval, Rectangle, or Pen tool to draw a Shape.⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Add Inner Shadow as per required border-side⁣⁣⁣⁣⁣⁣.⁣</td>
-                </tr>
-                <tr>
-                  <td>Top - X: 0 | Y: 3 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Bottom - X: 0 | Y: -3 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Left - X: 3 | Y: 0 | Blur: 0 |Spread: 0⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Right - X: -3 | Y: 0 | Blur: 0 |Spread: 0 ⁣⁣⁣⁣⁣</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div class="right">
+          <img src="../images/ui.svg" alt="design tools" />
         </div>
-        <div class="card">
-          <img src="../images/border.png" alt="trick banner for border icon" />
-          <div class="table">
-            <table>
-              <tbody>
-                <tr>
-                  <td>⁣⁣⁣⁣⁣⁣Use Oval, Rectangle, or Pen tool to draw a Shape.⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Add a thin dark-colored Stroke to the Shape and set its position to “Inside”.⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Add Light & Dark Drop Shadows - Light Shadow Fill : #FFFFFF⁣⁣⁣⁣ X: 4 Y: 4 Blur: 0 Spread: 0⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Dark Shadow Fill : #312F35⁣⁣⁣⁣ <br>X: 10 Y: 10 Blur: 0 Spread: 0⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Add “Inner Shadow” and set its options | X: 8 Blur: 0 Y: 8 Spread: 0⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣</td>
-                </tr>
-                <tr>
-                  <td>Draw other elements and repeat the same steps or Copy / Paste the Layer Style to re-use. ⁣⁣⁣⁣ ⁣⁣⁣⁣⁣</td>
-                </tr>
-              </tbody>
-            </table>
+      </div>
+    </section>
+
+    <!-- Futured tips section -->
+
+    <main>
+      <h3>Let's start <i>learning</i></h3>
+      <div class="wrapper">
+        <div class="grid">
+          <div id="openCard" class="card card1">
+            <p>Import multiple Images at the same time</p>
+            <h4>Ctrl/Cmd + Shift + K</h4>
           </div>
+          <div id="openCard" class="card card2">
+            <p>Bring an item to the front of everything</p>
+            <h4>Ctrl/Cmd + Shift + |</h4>
+          </div>
+          <div id="openCard" class="card card3">
+            <p>Copy all properties form an element</p>
+            <h4>Ctrl/Cmd + Alt + C</h4>
+          </div>
+          <div id="openCard" class="card card4">
+            <p>Paste all properties to an element</p>
+            <h4>Ctrl/Cmd + V</h4>
+          </div>
+          <div id="openCard" class="card card5">
+            <p>Copy a single property form an element</p>
+            <h4>Ctrl/Cmd + C</h4>
+          </div>
+          <div id="openCard" class="card card6">
+            <p>Paste a single property to an element</p>
+            <h4>Ctrl/Cmd + V</h4>
+          </div>
+          <div id="openCard" class="card card7">
+            <p>Resize objects and their properties</p>
+            <h4>K then hold Shift</h4>
+          </div>
+          <div id="openCard" class="card card8">
+            <p>Resize a frame without resizing it’s layers</p>
+            <h4>Ctrl/Cmd</h4>
+          </div>
+          <div id="openCard" class="card card1">
+            <p>Import multiple Images at the same time</p>
+            <h4>Ctrl/Cmd + Shift + K</h4>
+          </div>
+          <div id="openCard" class="card card2">
+            <p>Bring an item to the front of everything</p>
+            <h4>Ctrl/Cmd + Shift + |</h4>
+          </div>
+          <div id="openCard" class="card card3">
+            <p>Copy all properties form an element</p>
+            <h4>Ctrl/Cmd + Alt + C</h4>
+          </div>
+          <div id="openCard" class="card card4">
+            <p>Paste all properties to an element</p>
+            <h4>Ctrl/Cmd + V</h4>
+          </div>
+          <div id="openCard" class="card card5">
+            <p>Copy a single property form an element</p>
+            <h4>Ctrl/Cmd + C</h4>
+          </div>
+          <div id="openCard" class="card card6">
+            <p>Paste a single property to an element</p>
+            <h4>Ctrl/Cmd + V</h4>
+          </div>
+          <div id="openCard" class="card card7">
+            <p>Resize objects and their properties</p>
+            <h4>K then hold Shift</h4>
+          </div>
+          <div id="openCard" class="card card8">
+            <p>Resize a frame without resizing it’s layers</p>
+            <h4>Ctrl/Cmd</h4>
+          </div>
+          
         </div>
+      </div>
+      <div class="wrapper share">
+        <h1>Know of any <br>good design <br>resource to<br><i>share</i> ?</h1>
+        <form class="form" action="#">
+          <input type="text" id="fname" name="fname" placeholder="Name"><br>
+          <input type="url" id="flink" name="ResourceLink" placeholder="Resource link"><br>
+          <textarea id="message" name="message" cols="2" placeholder="Add a message ..."></textarea><br>
+          <input type="submit" value="Share Resource">
+        </form>
       </div>
     </main>
 
-    <footer>
-      <h2>Copyright &copy; 2020</h2>
+    <!-- Footer section -->
+    <footer class="wrapper">
+      <p>Copyright <i>&copy;</i> 2021</p>
+      <p>made with &#10084; by <i><a href="#">@gaddafi180</a></i></p>
     </footer>
-
     <script src="../script.js"></script>
   </body>
 </html>
